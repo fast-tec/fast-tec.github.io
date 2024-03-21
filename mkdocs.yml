@@ -1,1 +1,31 @@
 site_name: Fast-Tec
+site_url: https://example.com/
+repo_url: https://github.com/fast-tec/fast-tec.github.io/
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Blog: 'blog/index.md'
+    # - 'First': 'blog/blog1.md'
+    # - 'Second': 'blog/blog2.md'
+
+#theme: readthedocs
+
+exclude_docs: |
+  *.py
+
+markdown_extensions:
+  - toc:
+      permalink: 
+  - attr_list
+  - def_list
+  - tables
+  - pymdownx.highlight:
+      use_pygments: false
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - callouts
+  - mdx_gh_links:
+      user: mkdocs
+      repo: mkdocs
+  - mkdocs-click
