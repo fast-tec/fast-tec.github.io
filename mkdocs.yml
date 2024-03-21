@@ -1,5 +1,6 @@
 site_name: Fast-Tec
 site_url: https://example.com/
+repo_name: Github
 repo_url: https://github.com/fast-tec/fast-tec.github.io/
 
 nav:
