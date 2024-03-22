@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://example.com/blog/blog1/">
+        <link rel="canonical" href="https://example.com/blog/posts/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Item 1 - Fast-Tec</title>
+        <title>Posts - FastTec</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -20,7 +20,7 @@
     <body>
         <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
             <div class="container">
-                <a class="navbar-brand" href="../..">Fast-Tec</a>
+                <a class="navbar-brand" href="../..">FastTec</a>
                 <!-- Expander button -->
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
                     <span class="navbar-toggler-icon"></span>
@@ -36,8 +36,18 @@
                             <li class="navitem">
                                 <a href="../../about/" class="nav-link">About</a>
                             </li>
-                            <li class="navitem">
-                                <a href="../" class="nav-link">Blog</a>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Posts</a>
+</li>
+                                    
+<li>
+    <a href="../stock/" class="dropdown-item">Stock</a>
+</li>
+                                </ul>
                             </li>
                         </ul>
 
@@ -48,7 +58,17 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a href="https://github.com/fast-tec/fast-tec.github.io/edit/master/docs/blog/blog1.md" class="nav-link">Edit on Github
+                                <a rel="prev" href="../../about/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../stock/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/fast-tec/fast-tec.github.io/edit/master/docs/blog/posts/index.md" class="nav-link">Edit on Github
                                     </a>
                             </li>
                     </ul>
@@ -69,9 +89,13 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#item-1" class="nav-link">Item 1</a>
+            <li class="nav-item" data-level="1"><a href="#posts" class="nav-link">Posts</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#sub-item" class="nav-link">Sub-item</a>
+            <li class="nav-item" data-level="2"><a href="#books" class="nav-link">Books</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#ai" class="nav-link">AI</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -82,10 +106,14 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="item-1">Item 1<a class="headerlink" href="#item-1" title="Permanent link">#</a></h1>
-<p>Test</p>
-<h2 id="sub-item">Sub-item<a class="headerlink" href="#sub-item" title="Permanent link">#</a></h2>
-<p>test</p></div>
+<h1 id="posts">Posts<a class="headerlink" href="#posts" title="Permanent link">#</a></h1>
+<hr />
+<h2 id="books">Books<a class="headerlink" href="#books" title="Permanent link">#</a></h2>
+<ul>
+<li><a href="blog1/">FIRST</a></li>
+<li><a href="blog2/">2nd</a></li>
+</ul>
+<h2 id="ai">AI<a class="headerlink" href="#ai" title="Permanent link">#</a></h2></div>
             </div>
         </div>
 
