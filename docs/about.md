@@ -1,8 +1,3 @@
----
-title: My Document
-summary: A brief description of my document.
-date: 2018-07-10
----
 # Ut alma in participes nymphae qui cruorem
 
 ## Pharonque sed poma dignior similis

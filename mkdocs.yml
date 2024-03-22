@@ -1,4 +1,4 @@
-site_name: Fast-Tec
+site_name: FastTec
 site_url: https://example.com/
 repo_name: Github
 repo_url: https://github.com/fast-tec/fast-tec.github.io/
@@ -6,11 +6,11 @@ repo_url: https://github.com/fast-tec/fast-tec.github.io/
 nav:
   - Home: index.md
   - About: about.md
-  - Blog: 'blog/index.md'
-    # - 'First': 'blog/blog1.md'
-    # - 'Second': 'blog/blog2.md'
+  - Blog:
+    - 'Posts': 'blog/posts/index.md'
+    - 'Stock': 'blog/stock/index.md'
 
-#theme: readthedocs
+# theme: readthedocs
 
 exclude_docs: |
   *.py

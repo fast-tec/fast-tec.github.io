@@ -19,5 +19,5 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 <div class="text-center">
 <a href="about/" class="btn btn-primary" role="button">About</a>
-<a href="blog/" class="btn btn-primary" role="button">Blog</a>
+<a href="blog/stock" class="btn btn-primary" role="button">Blog</a>
 </div>
