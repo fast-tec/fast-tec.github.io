@@ -1,6 +1,6 @@
 # Posts
 ---
-## Books
-- [FIRST](blog1.md)
+## Software
+- [Linux](linux.md)
 - [2nd](blog2.md)
 ## AI
